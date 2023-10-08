@@ -8,43 +8,45 @@
     <link rel="stylesheet" href="css/controlStructures.css">
 </head>
 <body>
-<div class="wrapperOne">
-    <div>Задание 1</div>
-    <form>
-        <select>
-                <?php
-                for($i = 1980; $i <= 2023; $i++) {
-                    echo "<option value='$i'>$i</option>";
+<div class="main-container wrapper">
+    <div class="wrapperOne">
+        <div>Задание 1</div>
+        <form>
+            <select>
+                    <?php
+                    for($i = 1980; $i <= 2023; $i++) {
+                        echo "<option value='$i'>$i</option>";
+                    }
+                    ?>
+        </select>
+        </form>
+    </div>
+    <div class="wrapperTwo">
+        <div>Задание 2</div>
+        <?
+            //1
+            for($i = 1; $i <= 30; $i++){
+                if($i % 2 == 0){
+                    echo $i . '<br/>';
                 }
-                ?>
-    </select>
-    </form>
-</div>
-<div class="wrapperTwo">
-    <div>Задание 2</div>
-    <?
-        //1
-        for($i = 1; $i <= 30; $i++){
-            if($i % 2 == 0){
-                echo $i . '<br/>';
-            }
-        };
-    ?>
-</div>
-<div class="wrapperTree">
-    <div>Задание 3</div>
-    <?
-        //2
-        for ($i = 1; $i <= 50; $i++) {
-            if ($i % 3 == 0 && $i % 5 == 0) {
-                echo "<b>$i</b>" . '<br/>';
-            } elseif ($i % 3 == 0) {
-                echo "<i>$i</i>" . '<br/>';
-            } else {
-                echo "$i" . '<br/>';
-            }
-        };
-    ?>
+            };
+        ?>
+    </div>
+    <div class="wrapperTree">
+        <div>Задание 3</div>
+        <?
+            //2
+            for ($i = 1; $i <= 50; $i++) {
+                if ($i % 3 == 0 && $i % 5 == 0) {
+                    echo "<b>$i</b>" . '<br/>';
+                } elseif ($i % 3 == 0) {
+                    echo "<i>$i</i>" . '<br/>';
+                } else {
+                    echo "$i" . '<br/>';
+                }
+            };
+        ?>
+    </div>
 </div>
 
 </body>
