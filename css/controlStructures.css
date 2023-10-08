@@ -1,0 +1,17 @@
+body {
+    padding: 150px;
+    display: flex;
+}
+
+
+.wrapperOne {
+    margin-right: 100px;
+}
+
+.wrapperTwo {
+    margin-right: 100px;
+}
+
+.wrapperTree {
+
+}

@@ -65,7 +65,7 @@ body {
 }
 
 .my-projects-section {
-  margin: 0 0 50px 0;
+  margin: 0 0 125px 0;
 }
 
 .my-projects-list {
@@ -113,7 +113,7 @@ body {
 .my-work-experience-position {
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 20px;
   margin: 0 0 10px 0;
 }
@@ -125,6 +125,7 @@ body {
   line-height: 24px;
   color: #a8a8a8;
   margin: 0 0 10px 0;
+  text-decoration: none;
 }
 
 .my-work-experience-divider {
@@ -133,6 +134,10 @@ body {
 
 .my-work-experience-duties {
   padding: 0 0 0 18px;
+}
+
+.my-work-experience-duty {
+  visibility: hidden;
 }
 
 .my-work-experience-duty {
